@@ -2,6 +2,7 @@
 An online shopping system implemented using socket programming using TCP in Python. 
 
 Instructions:
+
 1.Download ```server.py``` and ```client.py```
 
 2.To create private key, run ```openssl genpkey -algorithm RSA -aes256 -out server.key``` and to create self signed certificate, run ```openssl req -x509 -new -days 365 -key server.key -out server.crt ```
